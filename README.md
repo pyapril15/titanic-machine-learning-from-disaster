@@ -29,8 +29,8 @@ I cleaned the data, explored it, made 8 charts and wrote down what I found. The 
 You need Python 3 installed. Then, from inside this folder:
 
 ```
-pip install -r requirements.txt
-python project.py
+uv sync
+uv run project.py
 ```
 
 The numbers are printed in the terminal and the charts appear in the `charts` folder.
@@ -49,7 +49,7 @@ titanic-survival-analysis/
 │   └── titanic.csv                 # the dataset
 ├── charts/                         # 8 charts made by project.py
 └── report/
-    ├── Minor_Project_2_Report.docx # project report (editable)
+    ├── Minor_Project_2_Report.docx # project report
 ```
 
 ## What I found
